@@ -9,7 +9,7 @@
             "email": "webmester@komjit.eu"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
     "laravel": {
