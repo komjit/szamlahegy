@@ -11,17 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-	"extra": {
-	"autoload": {
-		"psr-4": {
-			"KomjIT\\Szamlahegy\\": "src/KomjIT/Szamlahegy"
-		}
-	
+    "extra": {
     "laravel": {
       "providers": [
-	"KomjIT\\Szamlahegy\\SzamlahegyServiceProvider"
+        "KomjIT\\Szamlahegy\\SzamlahegyServiceProvider"
       ]
     }
-	}
   }
 }
