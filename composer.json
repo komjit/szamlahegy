@@ -16,11 +16,12 @@
 		"psr-4": {
 			"KomjIT\\Szamlahegy\\": "src/KomjIT/Szamlahegy"
 		}
-	}
+	
     "laravel": {
       "providers": [
-        "KomjIT\\Szamlahegy\\SzamlahegyServiceProvider"
+	"KomjIT\\Szamlahegy\\SzamlahegyServiceProvider"
       ]
     }
+	}
   }
 }
