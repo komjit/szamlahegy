@@ -1,0 +1,19 @@
+{
+    "name": "komjit/szamlahegy",
+    "description": "This is a Laravel package for Szamlahegy.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KomjIT Kft.",
+            "email": "webmester@komjit.eu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"KomjIT\\Szamlahegy\\" : "src/"
+		}
+	}
+}
