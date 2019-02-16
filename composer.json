@@ -1,0 +1,26 @@
+{
+    "name": "komjit/szamlahegy",
+    "description": "Simple Laravel wrapper for the API of the Sz\u0000mlahegy online invoice system.",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KomjIT Kft.",
+            "email": "webmester@komjit.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"extra": {
+	"autoload": {
+		"psr-4": {
+			"KomjIT\\Szamlahegy\\": "src/KomjIT/Szamlahegy"
+		}
+	}
+    "laravel": {
+      "providers": [
+        "KomjIT\\Szamlahegy\\SzamlahegyServiceProvider"
+      ]
+    }
+  }
+}
